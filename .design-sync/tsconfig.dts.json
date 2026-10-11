@@ -1,0 +1,14 @@
+{
+  "extends": "../components/react/tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "rootDir": "../components/react/src",
+    "outDir": "../components/react/dist/types"
+  },
+  "include": [
+    "../components/react/src/components/ui/**/*.ts",
+    "../components/react/src/components/ui/**/*.tsx"
+  ]
+}
