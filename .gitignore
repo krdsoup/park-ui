@@ -37,3 +37,10 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .velite
 
 styled-system
+# design-sync (claude.ai/design) working state
+.design-sync/sb-reference/
+.design-sync/learnings/
+.design-sync/.cache/
+.design-sync/node_modules
+.ds-sync/
+ds-bundle/

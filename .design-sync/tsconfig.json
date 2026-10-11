@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "../components/react",
+    "paths": {
+      "@/components/ui": ["./src/components/ui/index.ts"],
+      "@/*": ["./src/*"],
+      "styled-system/jsx": ["./styled-system/jsx/index.mjs"],
+      "styled-system/recipes": ["./styled-system/recipes/index.mjs"],
+      "styled-system/css": ["./styled-system/css/index.mjs"],
+      "styled-system/patterns": ["./styled-system/patterns/index.mjs"],
+      "styled-system/tokens": ["./styled-system/tokens/index.mjs"],
+      "styled-system/*": ["./styled-system/*"]
+    }
+  }
+}
